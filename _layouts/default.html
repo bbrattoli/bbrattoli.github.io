@@ -1,25 +1,167 @@
 ---
 layout: compress
 ---
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-{% include head.html %}
 
-<body>
-  <div class="wrapper">
-    {% include sidebar.html %}
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
-    <div class="main-wrapper">
-        {{ content }}
-    </div>
-  </div>
-
-  {% include footer.html %}
-
-{% include scripts.html %}
-</body>
-
+    	<title>Diş Hekimi - Abdullah Selim Kocabaş</title>
+    	<link rel="icon" href="images/logo.png">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	  	<div id="Welcome">
+	  		<!---Start navigation Bar -->
+	    	<nav class="navbar navbar-expand-lg navbar fixed-top  navbar-light bg-light">
+		 		<a class="navbar-brand" href="#Welcome">
+    				<img src="https://www.accessdental-tx.com/wp-content/uploads/2015/12/005-shiny-tooth-300x300.png" width="50" height="50" class="d-inline-block" alt=""> Abdullah Selim Kocabaş
+		 		</a>
+		 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		 		</button>
+			  	<div class="collapse navbar-collapse" id="navbarText">
+			    	<ul class="navbar-nav ml-auto">
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="#Welcome">Hoşgeldiniz</a>
+			      		</li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#SocialMedia">Sosyal Ağlar</a>
+					    </li>
+						 <li class="nav-item">
+					    	<a class="nav-link" href="#About">Hakkımda</a>
+					    </li>
+						
+					    <li class="nav-item">
+					    	<a class="nav-link" href="#OurLocation">Adres</a>
+					    </li>
+				    </ul>
+				</div>
+			</nav>
+			<!--- End Navigation Bar -->
+			<!--- Start Carousel -->
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<!-- <ol class="carousel-indicators"> -->
+					<!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
+				    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
+				    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+				<!-- </ol> -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+				    	<img class="d-block w-100 img-fluid img-slider" src="images/image-20161025-4706-auodmi.jpg" alt="First slide">
+				    	<div class="carousel-caption">
+						    <h2>Abdullah Selim Kocabaş</h2>
+							<p>Diş Hekimi</p>
+						</div>
+				    </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+			<!--- End of Carousel -->
+			
+			<!--- Start of socail Media -->
+			<div class="row" id="SocialMedia">
+				<div class="col navMenu">
+					<h2 class="text-center">~ Sosyal Medya ~</h2>
+				</div>
+			</div>
+			<div class="row">
+	<div class="social-icon">
+				<a  target="_blank" href="https://www.facebook.com/aseko.selim"><img width="100px" src ="images/facebook.png" ></a>
+				<a  target="_blank" href="https://www.instagram.com/aselimkocabas/"><img width="100px" src =" images/insta.png" ></a>
+				<a  target="_blank" href="https://api.whatsapp.com/send?phone=+905466293552"><img width="100px" src ="images/whatapps.png" ></a>
+</div>
+			</div>
+			<!--- End of Social Media-->
+			
+			
+			<!--- Restaurant-->
+		<div class="container">
+		 	<div class="row" id="About">
+	    		<div class="col navMenu">
+	     		 	<h2 class="text-center" >~ Hakkımda ~</h2>
+	    		</div>
+  			</div>
+  			<div class="row bg-light" >
+  				<div class="col-md-6">
+  					<h3>Eğitim</h3>
+  					<p>Yeditepe Üniversite Diş Hekimliği bölümünü başarı ile tamamlanmıştır. Diş hekimliği ünavına yanaşır şekilde kendini geliştirmeyi ve güncel yöntemleri takip etmektedir.</p>
+					<p></p>
+  				</div>
+  				<div class="col-md-6" data-aos="fade-up">
+  					<img class="img-fluid" src="https://www.hangiuniversite.com/uploads/universite/yeditepe-universitesi.png">
+  				</div>
+  			</div>
+  			<div class="row bg-light"><br></div>
+  			<div class="row bg-light">
+  				<div class="col-md-6 order-md-1 order-2" data-aos="fade-up">
+  					<img class="img-fluid " src="https://www.accessdental-tx.com/wp-content/uploads/2015/12/1497551197_Dental_-_Tooth_-_Dentist_-_Dentistry_13.png">
+  				</div>
+  				<div class="col-md-6 order-md-12 order-1">
+  					<h3>Kariyer</h3>
+  					<p>Ailem Dental Diş Kliniğinde hastalarına hizmet vermektedir. Sizleri de periyodik diş kontrollerine bekleriz.</p>
+  				</div>
+  			</div>
+  			<!--- End of Restaurant -->
+ 
+			<!--- Start of Our Location -->
+			<div class="row" id="OurLocation">
+				<div class="col navMenu">
+					<h2 class="text-center">~ Adres ~</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.482986444498!2d28.965374952996704!3d41.08029264860423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab6da9e03a92f%3A0x2fd46fd488eb5d91!2sAilem%20dentaL!5e0!3m2!1str!2str!4v1571049193614!5m2!1str!2str" width="800" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+				<div class="col-md-3">
+					<h3>Adres:</h3>
+					<p>Nurtepe Mah, Arı Cd. 1A D:1B, 34406 Kâğıthane/İstanbul</p>
+					<h3>Email:</h3>
+					<p>aselimkocabas@gmail.com</p>
+				</div>
+			</div>
+			<!--- End of Our Location -->
+			<div class="row footer bg-light">
+				<div class="col">
+					<p class="text-center"></p>
+				</div>
+				<div class="col">
+					<p class="text-center">Copyright &copy; 2019</p>
+				</div>
+				<div class="col">
+					<!-- <p class="text-center">Powered by: Rubik Technologies</p> -->
+				</div>
+			</div>
+		</div>
+		<footer class="container">
+			<div class= "row only-mobile">
+				<div class="col-6">
+					<a class="btn btn-primary btn-block text-center" href="tel:+905466293552"><i class="fa fa-phone" aria-hidden="true"></i> Call</a>
+				</div>
+				<div class="col-6">
+					<a class="btn btn-success btn-block text-center" href="https://api.whatsapp.com/send?phone=+905466293552"><i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
+				</div>
+			</div>
+		</footer>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/smooth-scroll.js"></script>
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<script type="text/javascript" src="js/image-effect.js"></script>
+	    </script>
+  	</body>
 </html>
-
