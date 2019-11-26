@@ -7,160 +7,91 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Biagio Brattoli
-    tagline: Computer Vision and Machine Learning researcher
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Brian Ting
+    tagline: Linux & Open Source people
+    avatar: profile.webp  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: biagio.brattoli@gmail.com
-    phone: 
-    website: bbrattoli.github.io/publications/ #do not add http://
-    linkedin: biagiobrattoli
-    github: bbrattoli
+    email: ting779@gmail.com
+    phone: 016-860 8059
+    website: #do not add http://
+    linkedin: 
+    github: tyu1996
     gitlab:
     bitbucket:
-    twitter: '@BiagioBrattoli'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    dev: tyu1996
 
     languages:
+      - idiom: Mandarin
+        level: Native
+
       - idiom: English
         level: Fluent
 
-      - idiom: Italian
-        level: Native
-
-      - idiom: German
+      - idiom: Malay
         level: Colloquial
 
-    interests:
-      - item: Guitar
-        link:
+      - idiom: Sarawak Dialect
+        level: Learning
 
-      - item: Basketball
+    interests:
+      - item: Badminton
         link:
 
       - item: Biking
         link:
 
+      - item: City Planning
+        link:
+
+      - item: Swimming
+        link:
+
+
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      After a double master degree at KTH (Stochkolm, Sweden) and Politecnico di Torino (Torino, Italy), 
-      I pursued my passion for Computer Vision as researcher in the Heidelberg Collaboratory for Image procession, one of the biggest research group in Germany in the field.
+      Proverb says "Curiosity killed the cat", then I would say "Curiosity fueled my mind".
+      Often motivated by self learning, I learnt the things my campus never taught me, and contributed to several FOSS projects on GitHub.
 
 news:
-    title: News
+    title: Achievements
     intro: |
         
     
     posts:
-        - time: July 2019
-          title: Begin Amazon AWS intership with P.Perona in Pasadena, CA
-          
-        - time: July 2019
-          title: One paper accepted at ICCV19
-          
-        - time: January 2019
-          title: Selected as reviewer for ICCV19
-        
-        - time: December 2018
-          title: Selected as reviewer for CVPR19
-        
-        - time: Sptember 2018
-          title: Two papers accepted as orals at GCPR (German Conference for Patter Recognition) as a result of two master thesis which I supervised
-        
-        - time: July 2018
-          title: Attending the International Summer School for Computer Vision (ICVSS) in Sicily, Italy
-        
+        - time: 2019
+          title: UCTS Mobile App Competition
         - time: 2018
-          title: Paper accepted as poster at ECCV18 in Munich, Germany
-        
-        - time: 2017
-          title: Attending the Workshop on Behavior Analysis (BAFA, Better Analysis Fewer Animals) in Utrecht, Netherlands
-        
-        - time: 2017
-          title: Paper accepted as poster at CVPR17 in Honolulu, Hawaii
+          title: 
+            UNIMAS Ideathon <br />
+            HackFest "Cybercounter" MPSP Penang <br />
+            TEGAS Pre-Accelerator Program (2 weeks) <br />
+            HackWeeknd Kuching (Winner)
+        - time: 2016
+          title: Makerfest UCTS
+          
 
 education:
-    - degree: Applied Scientists Intern at Amazon AWS
-      university: P. Perona, Pasadena, CA, USA
-      time: 2019 - current
-      details: |
-     
-    - degree: PhD in Computer vision and Machine learning
-      university: Heidelberg University
-      time: 2015 - current
-      details: |
-
-    - degree: Internship (Master Thesis)
-      university: Tobii
-      time: 2014 - 2015
-      details: |
-
-    - degree: Master Degree
-      university: KTH (Stockholm, Sweden)
-      time: 2013 - 2015
-      details: |
-    
-    - degree: Master Degree
-      university: Politecnico di Torino (Torino, Italy)
-      time: 2012 - 2015
-      details: |
-    
-    - degree: Bachelor Degree
-      university: Politecnico di Torino (Torino, Italy)
-      time: 2009 - 2012
+    - degree: Bachelor in Computer Science
+      university: University College of Technology Sarawak (Sibu, Sarawak)
+      time: 2016 - 2020
       details: |
 
 
 educationcomplete:
-    - degree: Applied Scientists Intern at Amazon AWS
-      university: P. Perona, Pasadena, CA, USA
-      time: 2019 - current
+    - degree: Bachelor in Computer Science
+      university: University College of Technology Sarawak (Sibu, Sarawak)
+      time: 2016 - 2020
       details: |
-
-    - degree: PhD in Computer vision and Machine learning
-      university: Heidelberg University
-      time: 2015 - current
-      details: |
-        Unsupervised deep learning for automatic behavior analysis
-
-          - Unsupervised learning
-          - Representaion learning
-          - Automatic Behavior Analysis
-
-    - degree: Internship (Master Thesis)
-      university: Tobii
-      time: 2014 - 2015
-      details: |
-        Master thesis topic Hand gesture classification by Deep learning using infrared camera 
-
-          - Deep learning
-          - Hand Gesture
-
-    - degree: Master Degree
-      university: KTH (Stockholm, Sweden)
-      time: 2013 - 2015
-      details: |
-        Master degree in Computer Science and Artificial Intelligence
-
-          - Artificial Intelligence
-          - Machine Learning
-          - Computer Vision
-    
-    - degree: Master Degree
-      university: Politecnico di Torino (Torino, Italy)
-      time: 2012 - 2015
-      details: |
-        Master degree in Software Engineering
-    
-    - degree: Bachelor Degree
-      university: Politecnico di Torino (Torino, Italy)
-      time: 2009 - 2012
-      details: |
-        Master degree in Computer Engineering
+        Final Year Project: <br />
+          "Augmented Reality for Community Experiences: <br />
+          An Experimental Study of Material Interaction" <br />
+        Supervisor: Mr. Gary Loh Chee Wyai
 
 
 #experiences:
@@ -207,33 +138,32 @@ educationcomplete:
           #- Bullet point
           #- Bullet point
 
-#projects:
-    #title: Projects
-    #intro: >
-      #You can list your side projects or open source libraries in this
-      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+projects:
+    title: Projects
+    intro: >
+      Throughout these few years I've created and contributed some projects, most of them are open source on GitHub.
 
-    #assignments:
-      #- title: Velocity
-        #link: "#hook"
-        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    assignments:
+      - title: AppImage
+        link: "#"
+        tagline: "Spread and promote the single-app ideology among Linux community. One of the more active member."
+      
+      - title: Hub
+        link: "#"
+        tagline: "A clear-directioned mobile messaging app designed for organisational use. Build with Flutter and Firebase."
+      
+      - title: Piks
+        link: "#"
+        tagline: "Photo sharing social website, imagine Flickr blend with Instagram. My most satisfying school assignment work, powered by Flask."
 
-      #- title: DevStudio
-        #link: "#"
-        #tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: PWApps
+        link: "#"
+        tagline: "First attempt to build a Progressive Web App using Angular Framework."
 
-      #- title: Tempo
-        #link: "#"
-        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: VSCodium
+        link: "#"
+        tagline: "A fork of popular VSCode, but without Microsoft's proprietary telemetry. Creator and maintainer of its AppImage package."
 
-      #- title: Atom
-        #link: "#"
-        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      #- title: Delta
-        #link: "#"
-        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications

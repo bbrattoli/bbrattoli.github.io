@@ -67,5 +67,11 @@
     </li>
     {% endif %}
 
+    {% if sidebar.dev %}
+    <li class="dev"><img src="../assets/images/dev.png" height="20" width="18" style="margin-right: 5px;"></i>
+      <a href="https://dev.to/{{ sidebar.dev }}" target="_blank">{{ sidebar.dev }}</a>
+    </li>
+    {% endif %}
+
   </ul>
 </div><!--//contact-container-->
