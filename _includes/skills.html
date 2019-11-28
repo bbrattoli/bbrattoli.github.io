@@ -1,3 +1,7 @@
+<style>
+
+</style>
+
 {% assign skills = site.data.data.skills %}
 {% if skills %}
 <section class="skills-section section">
@@ -15,12 +19,21 @@
     {% for skill in skills.toolset %}
     <div class="item">
 
-      <h3 class="level-title">{{ skill.name }}</h3>
+      <h3 class="level-title">{{ skill.category }}</h3>
+      <ul style="margin-top: 20px;">
+        {% for name in skill.name %}
+          <li>{{ name }}</li>
+        {% endfor %}
+      </ul>
 
+<!--Modify the skills: not using skill level, but a normal texts with sections-->
+
+    <!--
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
-      </div><!--//level-bar-->
+      </div>
+    -->
 
     </div><!--//item-->
     {% endfor %}
